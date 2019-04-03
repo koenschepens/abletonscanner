@@ -1,0 +1,28 @@
+{header}
+<div id="container">
+    <h1>Orphaned samples</h1>
+    <p>The following {len(orphans)} samples are seemingly never used in any of your scanned projects.</p>
+    <p>Total file size: {TotalOrphanedSampleFileSize:filesize}</p>
+    <table>
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Folder
+            </th>
+            <th>
+                Size
+            </th>
+        </tr>
+    {orphans:orphanedsample}
+    </table>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function() {{
+    console.log( "ready!" );
+    $("audio source[src$='.wav']").parent().removeAttr('hidden');
+  }});
+</script>
+{footer}

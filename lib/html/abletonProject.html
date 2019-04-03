@@ -1,0 +1,39 @@
+{header}
+  <!-- ####################################################################################################### -->
+  <div id="breadcrumb">
+    <ul>
+      <li class="first">Scan results</li>
+      <li>&#187;</li>
+      <li><a href="#">Projects</a></li>
+      <li>&#187;</li>
+      <li class="current"><a href="#">{Name}</a></li>
+    </ul>
+  </div>
+  <div id="container">
+    <h1>{Name}</h1>
+      <ul class="nostart">
+          <p>Project directory:
+              <br/>{ProjectDir}
+          </p>
+          <p>Root folder: {RootFolder}</p>
+          <p>{len(ReferencedBy)} times referenced:
+                <ul>
+                    {ReferencedBy:project_item}
+                </ul>
+          </p>
+          <p>Size of all samples in samples folder: {sample_files_size_total:filesize}</p>
+      </ul>
+    <h3 class="toggler" data-target="projectsamples"><u>{len(sample_files)} project samples</u></h3>
+    <div id="projectsamples" style="display:none;">
+        <table>
+            <tr>
+                <td>Path</td>
+                <td>Size</td>
+            </tr>
+            {sample_files:SampleFile}
+        </table>
+    </div>
+    <h2>Live sets</h2>
+    {livesets:abletonLiveSet}
+</div>
+  {footer}

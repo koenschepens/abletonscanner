@@ -1,0 +1,36 @@
+<h4 class="toggler" data-target="project_{Id}">{Name}</h4>
+<div id="project_{Id}" style="display:none;">
+<ul class="nostart">
+    <li>Is valid: {IsValidLiveSetFile}</li>
+    <li>Number of project/external sample references: {len(sample_refs)}</li>
+    <li>Missing references: {len(missing_sample_files)}</li>
+    <li>Has {len(References)} references:
+        <ul>
+            {References:project_item}
+        </ul>
+    <li>
+    <li>Last saved using {Version}</li>
+</ul>
+ <p><b>References to project or external samples</b></p>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Real path</td>
+            <td>Exists</td>
+            <!--<td>Status</td>-->
+            <td>Location</td>
+        </tr>
+        {sample_refs:fileref}
+    </table>
+    <p><b>Missing references</b></p>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Real path</td>
+            <td>Exists</td>
+            <!--<td>Status</td>-->
+            <td>Location</td>
+        </tr>
+        {missing_sample_files:fileref}
+    </table>
+</div>

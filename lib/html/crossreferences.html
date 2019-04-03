@@ -1,0 +1,23 @@
+{header}
+  <div id="intro">
+    <div class="fl_left"> <a href="#"><img src="{FullDir}/images/demo/logo.jpg" alt="Ableton" /></a> </div>
+    <div class="fl_right">
+    <h2>Cross references</h2>
+    <div>
+    <p>A total of {len(CrossReferences)} cross references were found. This is the amount of samples that are in a project but are referenced from
+    another project. This can cause problems when you move projects to a different location. </p>
+        <br/>
+    <h1>All cross references</h1>
+        <ul>
+            {CrossReferences:crossreference_item}
+        </ul>
+        <br/>
+    </div>
+    <h1>Per project</h1>
+    <ul>
+        {projects:projectreference}
+    </ul>
+    </div>
+    <br class="clear" />
+  </div>
+{footer}

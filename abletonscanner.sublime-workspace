@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"search",
+				"search_text"
+			],
+			[
+				"musi",
+				"music_play"
+			],
+			[
+				"js",
+				"json_data"
+			],
+			[
+				"searc",
+				"searchResults"
+			],
+			[
+				"sear",
+				"searchParameters"
+			],
+			[
+				"spo",
+				"spotifyState"
+			],
+			[
+				"configA",
+				"configAction"
+			],
+			[
+				"configAc",
+				"configActionState"
+			],
+			[
+				"acions",
+				"actions"
+			],
+			[
+				"music",
+				"music_search"
+			],
+			[
+				"yout",
+				"youtubeQuery"
+			],
+			[
+				"para",
+				"Parameters"
+			],
+			[
+				"Ko",
+				"KodiContext"
+			],
+			[
+				"wha",
+				"whatyousaid"
+			],
+			[
+				"exe",
+				"executeJSONRPC"
+			],
+			[
+				"y",
+				"youtubeId"
+			],
+			[
+				"xbmccl",
+				"XBMCClient"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"colu",
+				"columns"
+			],
+			[
+				"ser",
+				"serviceFolder"
+			],
+			[
+				"custom",
+				"customHtml"
+			],
+			[
+				"cus",
+				"customHtml"
+			],
+			[
+				"sl",
+				"splitted"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"qui",
+				"Git: Quick Commit"
+			],
+			[
+				"q",
+				"Git: Quick Commit"
+			],
+			[
+				"quit",
+				"Git: Quick Commit"
+			],
+			[
+				"qu",
+				"Git: Quick Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"history",
+				"Git: Commit history"
+			],
+			[
+				"git his",
+				"Git: Commit history"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"quik",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inste",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"plug",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"deins",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"setup ",
+				"FTPSync: Setup FTPSync in this folder"
+			],
+			[
+				"package set",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"pref",
+				"Project: Add Folder"
+			],
+			[
+				"packag	",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/osmc/Programs/OldPhone/Keypad/program/resources/konversation/konversation.py",
+		"/Volumes/osmc/.kodi/userdata/advancedsettings.xml",
+		"/Volumes/osmc/.kodi/addons/script.skinshortcuts/resources/lib/gui.py",
+		"/Volumes/osmc/.kodi/addons/service.oldphone.voiceinput/lib/voiceinput.py",
+		"/Volumes/osmc/.kodi/addons/skin.osmc/addon.xml",
+		"/Volumes/osmc/.kodi/addons/plugin.video.youtube/addon.xml",
+		"/Volumes/osmc/.kodi/addons/plugin.video.youtube/resources/lib/youtube/provider.py",
+		"/Volumes/osmc/.kodi/addons/skin.osmc/16x9/Custom_Overlay_Debug.xml",
+		"/Volumes/osmc/.kodi/addons/skin.osmc/16x9/DialogKeyboard.xml",
+		"/Volumes/osmc/.kodi/addons/skin.osmc/16x9/Includes.xml",
+		"/Volumes/osmc/.kodi/addons/service.skin.widgets/addon.xml",
+		"/Volumes/osmc/.kodi/addons/service.skin.widgets/default.py",
+		"/Volumes/osmc/.kodi/addons/skin.osmc/shortcuts/overrides.xml",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/addon.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.southpark_unofficial/default.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/nightcrawler/core/kodi/player.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/kodion/constants/const_settings.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/soundcloud/provider.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/kodion/logging.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/soundcloud/client.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/kodion/impl/abstract_player.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/default.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/nightcrawler/provider.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/kodion/runner.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/kodion/impl/abstract_logger.py",
+		"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud/resources/lib/kodion/impl/xbmc/xbmc_logger.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.uzg/resources/lib/watchedepisodes.config",
+		"/Volumes/osmc/.kodi/addons/plugin.video.uzg/resources/lib/uzg.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.uzg/resources/lib/printepisodes.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.uzg/addon.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.dumpert/resources/lib/dumpert_list.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.dumpert/resources/lib/dumpert_play.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.dumpert/resources/lib/dumpert_playrandom.py",
+		"/Volumes/osmc/.kodi/addons/plugin.video.uzg/resources/lib/printserienames.py",
+		"/Users/macbook/Desktop/series.csv",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/spotifyState.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/includes/pyspotify/examples/shell.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/conversation.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/testflow.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/includes/pyspotify/spotify/link.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/kodi/kodi_container.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/getinfolabel",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/addon.xml",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/contexts/kodiContext.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/contexts/context.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/contexts/kodiContext/spotifyPlayer.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/contexts/kodiContext/__init__.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/kodi/kodi_infoLabelObject.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/spotify_appkey.key",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/apps.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/conversation.config",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/configActionState.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/__init__.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/actionState.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/actions.config",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/actions.config",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/includes/soundex/.eggs/pbr-1.8.1-py2.7.egg/pbr/hooks/commands.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/yo.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/kodi/kodi_json.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/media.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/immediateAction.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/userInputRequired.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/configAction.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/contexts/kodiRemoteContext.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/kodi/kodi_test.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/weather.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/phoneUp.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/kodi/kodi_listItem.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/kodi/__init__.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/smalltalk.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/service.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/kodi/kodi_player.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/__init__.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/state.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/phoneDown.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/initial.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/images.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/input.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/message.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/actions/news.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/context.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/kodiContext.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/kodiRemoteContext.py",
+		"/Volumes/osmc/Programs/OldPhone/Conversation/service/flow/contexts/__init__.py",
+		"/Users/macbook/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/macbook/GitHub/OldPhone/Conversation/program/conversation.py",
+		"/Users/macbook/GitHub/OldPhone/Conversation/program/example.py",
+		"/Users/macbook/GitHub/OldPhone/Conversation/program/test.py",
+		"/Users/macbook/GitHub/OldPhone/Conversation/program/runner.py",
+		"/Users/macbook/GitHub/OldPhone/Conversation/program/addon.xml",
+		"/Users/macbook/GitHub/OldPhone/Conversation/program/service.py",
+		"/Users/macbook/GitHub/OldPhone/Conversation/installer/install.sh",
+		"/Users/macbook/GitHub/OldPhone/Conversation/program/resources/skins/main/720p/welcome.xml",
+		"/Volumes/osmc/.kodi/addons/scripts.module.oldphone.conversation/resources/skins/main/720p/welcome.xml",
+		"/Volumes/osmc/.kodi/addons/script.module.youtube.dl/resources/skins/main/720p/script-module-youtube-dl-options_dialog.xml",
+		"/Users/macbook/GitHub/OldPhone/Keypad/program/keypad.py",
+		"/Users/macbook/GitHub/OldPhone/Conversation/installer/update.sh",
+		"/Volumes/osmc/.kodi/addons/script.module.youtube.dl/resources/settings.xml",
+		"/Users/macbook/GitHub/OldPhone-Keypad/program/yooooo",
+		"/Users/macbook/GitHub/OldPhone-Keypad/installer/keypad.config",
+		"/Users/macbook/GitHub/OldPhone-Keypad/installer/update.sh",
+		"/Users/macbook/GitHub/OldPhone-Keypad/program/testevents.py",
+		"/Users/macbook/GitHub/OldPhone-Keypad/program/runner.py",
+		"/Users/macbook/GitHub/OldPhone-Keypad/program/test112",
+		"/Users/macbook/GitHub/OldPhone-Keypad/installer/install.sh",
+		"/Users/macbook/GitHub/OldPhone-Keypad/program/addon.xml",
+		"/Users/macbook/GitHub/OldPhone-Keypad/program/keypad.py",
+		"/Users/macbook/GitHub/OldPhone-Keypad/installer/addon.xml",
+		"/Users/macbook/GitHub/OldPhone-Keypad/program/kbdout.py",
+		"/Users/macbook/Desktop/k/Unbenannt heppie 64-2",
+		"/Users/macbook/Desktop/k/OldPhone.xml",
+		"/Applications/Ableton Live 9.2 Suite 32bit.app/Contents/MacOS/Installation.cfg",
+		"/Users/macbook/Downloads/OpenELEC-RPi2.arm-5.95.3/README.md",
+		"/Users/macbook/Desktop/webprojects/koenschepens.nl/hostnet/httpdocs/koenschepens.nl/giglist/index.php",
+		"/Users/macbook/Desktop/webprojects/koenschepens.nl/hostnet/httpdocs/koenschepens.nl/includes/google-api-php-client/src/Google/Service/Calendar.php",
+		"/Users/macbook/Desktop/webprojects/koenschepens.nl/hostnet/httpdocs/koenschepens.nl/includes/google-api-php-client/src/Google/Client.php",
+		"/Users/macbook/Desktop/webprojects/koenschepens.nl/hostnet/httpdocs/.htaccess",
+		"/Users/macbook/Desktop/webprojects/koenschepens.nl/hostnet/ftpsync.settings",
+		"/Users/macbook/Desktop/koenschepens.nl/ftpsync.settings",
+		"/Users/macbook/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/macbook/Desktop/test.php",
+		"/Users/macbook/Desktop/fbtest.html",
+		"/Users/macbook/Desktop/testhtml.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Volumes/osmc/.kodi/addons/plugin.video.youtube",
+			"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud",
+			"<open folders>",
+			"/Volumes/osmc/.kodi/addons/skin.appletv/keyboard",
+			"/Volumes/osmc/.kodi/addons/skin.appletv",
+			"/Volumes/osmc/.kodi/addons/skin.apple",
+			"/Volumes/osmc/.kodi/addons/skin.osmc",
+			"/Volumes/osmc/.kodi/addons/plugin.audio.soundcloud",
+			"<open folders>",
+			"/Volumes/osmc/.kodi/addons/",
+			"/Volumes/osmc/.kodi/addons/plugin.video.dumpert",
+			"<open folders>",
+			"/Volumes/osmc/Programs/OldPhone/Conversation/service/includes/pyspotify/spotify",
+			"/Volumes/osmc/Programs/OldPhone/",
+			"/Volumes/osmc/Programs/OldPhone/*",
+			"/Volumes/osmc/Programs/OldPhone",
+			"<open folders>",
+			"/Users/macbook/Desktop/webprojects/koenschepens.nl/hostnet/httpdocs/koenschepens.nl/includes/google-api-php-client/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"record_to_file",
+			"params",
+			"update_video_infos",
+			"play_video",
+			"play",
+			"search_text",
+			"on_search",
+			"search",
+			"path",
+			"konversation",
+			"konver",
+			"folder",
+			"konver",
+			"konv",
+			"konversation",
+			"keyboa",
+			"skin",
+			"keyboard",
+			"globalsearch",
+			"dialog",
+			"keyboard",
+			"key",
+			"OnInputRequested",
+			"dialogkeyboard",
+			"keyboard",
+			"gettext",
+			"keyboard",
+			"playlist.ad",
+			"_play",
+			"get_params",
+			"impl",
+			"_player",
+			"class Runner",
+			"play",
+			"player",
+			"AbstractPlayer",
+			"play",
+			"_do_item",
+			"track_item",
+			"_do_item",
+			"_do_collection",
+			"audio_id",
+			"AudioItem",
+			"user/favorites",
+			"get_favorites",
+			"favorites",
+			"get_favorites",
+			"favorites",
+			"likes",
+			"on_play",
+			"_on_play",
+			"_do_item",
+			"likes",
+			"params",
+			"_on_play",
+			"likes",
+			"_on_play",
+			"play(",
+			"playlist",
+			"log",
+			"kodion.",
+			"random",
+			"_do_item",
+			"_do_collection",
+			"on_search",
+			"addLink",
+			"playran",
+			"_geo",
+			"mediagen_geo",
+			"staging",
+			"url",
+			"addlink",
+			"Random",
+			"addLink",
+			"addLine",
+			"random",
+			"translation",
+			"getProperty",
+			"/play",
+			"play",
+			"__server_ip",
+			"get_track_url",
+			"exist",
+			"watchedepi",
+			"self.__items",
+			"uzgitemlist",
+			"self.items",
+			"get",
+			"get_items",
+			"items",
+			"xbmc",
+			"self",
+			"msg=",
+			"(",
+			",",
+			"video_page_url",
+			"play_video",
+			"xbmc",
+			"settings",
+			"__server_ip",
+			"url",
+			"player",
+			"infolabel",
+			"\".join",
+			"' '.join",
+			".join(",
+			"plugin.audio.spotlight",
+			"super(",
+			"self.Context.log(",
+			"Text:",
+			"str(result",
+			"actionList",
+			"self.Config",
+			"search_youtube",
+			"youtube-search",
+			"pop",
+			"genres",
+			"plugin:",
+			"windowId",
+			"ActivateWindow",
+			"windowId",
+			"initial",
+			"ringFirst",
+			"action",
+			"executeAction",
+			"getVoiceInput",
+			"ringFirst",
+			"youtube"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\r\\n",
+			"actionItems",
+			"ActivateWindow",
+			"# ",
+			",",
+			"",
+			"key"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true
+}

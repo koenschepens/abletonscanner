@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Ableton scanner</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" href="{FullDir}/layout/styles/layout.css" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="file://{FullDir}/script/init.js"></script>
+</head>
+<body id="top">
+<div class="wrapper"> 
+  <!-- ####################################################################################################### -->
+  <div id="header">
+    <div class="fl_left">
+      <h1><a href="#">Scan results</a></h1>
+      <p>Ableton filecheck</p>
+    </div>
+    <div class="fl_right"><a href="#"><img src="{FullDir}/images/ableton_banner.jpg" alt="" style="width:300px;" /></a></div>
+    <br class="clear" />
+  </div>
+  <!-- ####################################################################################################### -->
+  <div id="topbar">
+    <div class="fl_left">
+      <p>Mail: kschepens@gmail.com</p>
+      <!--<form action="#" method="post">-->
+        <!--<fieldset>-->
+          <!--<legend>Search project</legend>-->
+          <!--<input type="text" value="search project&hellip;"  onfocus="this.value=(this.value=='search project&hellip;')? '' : this.value ;" />-->
+          <!--<input type="submit" name="go" id="go" value="GO" />-->
+        <!--</fieldset>-->
+      <!--</form>-->
+    </div>
+    <div id="topnav">
+      <ul>
+        <li><a href="{FullDir}/index.html">Overview</a></li>
+        <li><a href="{FullDir}/orphanedsamples.html">Orphaned samples</a></li>
+        <li><a href="{FullDir}/crossreferences.html">Cross references</a></li>
+        <li><a href="{FullDir}/projects.html">Projects</a>
+          <ul>
+            {projects:menuitem}
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+  <!-- ####################################################################################################### -->

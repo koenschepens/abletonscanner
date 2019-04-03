@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Scan results</title>
+    </head>
+    <body>
+        <h1>Scan results</h1>
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <td>
+                    Number of projects scanned
+                <td>
+                <td>
+                    {SuccessfulProjectCount}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Of which have failed to open
+                <td>
+                <td>
+                    {FailedProjectCount}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total number of samples in sample folders
+                <td>
+                <td>
+                    {TotalSampleCount}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total filesize of samples in sample folders
+                <td>
+                <td>
+                    {TotalSampleFileSize:filesize}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Total number of orphaned samples
+                <td>
+                <td>
+                    {len(orphans)}
+                </td>
+            </tr>        
+           <tr>
+                <td>
+                    Total filesize of orphaned samples
+                <td>
+                <td>
+                    {TotalOrphanedSampleFileSize:filesize}
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Number of cross-references
+                <td>
+                <td>
+                    {len(CrossReferences)}
+                </td>
+            </tr>
+        </table>
+{found_sample_files:SampleFile}
+{projects}
+    </body>
+</html>

@@ -1,0 +1,25 @@
+{header}
+  <div id="intro">
+    <div class="fl_left"> <a href="#"><img src="{FullDir}/images/demo/logo.jpg" alt="Ableton" /></a> </div>
+    <div class="fl_right">
+      <h2>Scan results</h2>
+      <p>{len(livesets)} live sets in {len(projects)} projects scanned.</p>
+      <p>Scan started on {Started:%d-%m-%Y at %H:%M} and took {duration.seconds} seconds</p>
+      <p>Total number of samples in sample folders: {TotalSampleCount}</p>
+      <p>Total file size of samples in sample folders: {TotalSampleFileSize:filesize}</p>
+      <p>Total number of orphaned samples: {len(orphans)}</p>
+      <p>Total file size of orphaned samples: {total_orphans_file_size:filesize}</p>
+      <p>Number of cross-references: {len(CrossReferences)}</p>
+      <p>&nbsp;</p>
+      <p>I made this in my spare time. If you find it useful, please consider donating.</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.paypalobjects.com/nl_NL/i/scr/pixel.gif" width="1" height="1">
+      </form>
+    </div>
+    <br class="clear" />
+
+  </div>
+  {footer}
