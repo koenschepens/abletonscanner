@@ -125,12 +125,12 @@ class AbletonScanner(Htmlable):
                 live_set_count += 1
 
         if evaluate_orphans:
-            self._evaluate_orphans()
+            self.evaluate_orphans()
 
         self.SuccessfulProjectCount = len(self.projects)
 
         self.TotalSampleCount = len(self.found_sample_files)
-        self.TotalSampleFileSize = sum(s.file_size for s in self.found_sample_files)
+        self.TotalSampleFileSize = sum(s.file_size for s in filter(lambda f: f is not None, self.found_sample_files))
         self.Ended = datetime.datetime.now()
 
     @property
@@ -185,7 +185,7 @@ class AbletonScanner(Htmlable):
             # No match was found, add as orphan
             self.orphans.append(sample_file)
 
-    def _evaluate_orphans(self):
+    def evaluate_orphans(self):
         self.total_orphans_file_size = sum(map(lambda o: o.file_size, self.orphans))
 
         log(f"Found {len(self.orphans)} orphans", level=LOG_DEBUG)

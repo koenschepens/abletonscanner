@@ -1,12 +1,11 @@
 from __future__ import print_function
+from os.path import expanduser
 
 from tkinter import filedialog
-from tkinter import *
 from tkinter import messagebox
 
-import webbrowser
 from lib.abletonScanner import *
-from os.path import expanduser
+import webbrowser
 
 
 def findPreferencesFolder():
@@ -48,13 +47,16 @@ def main():
 
 def mainDev():
     preferencesFolder = "/Users/Koen Schepens/Library/Preferences/Ableton/Live 10.0.1"
-    abletonProjectFolder = "/Users/Koen Schepens/Dropbox/Producing/Projects/Ableton/Years Project"
-    #scanner = AbletonScanner(abletonProjectFolder, preferencesFolder, sampleFolders=["/Users/Koen Schepens/Dropbox/Producing/Samples", "/Users/Koen Schepens/Dropbox/Producing/Recordings_local"])
-    scanner = AbletonScanner(abletonProjectFolder, preferencesFolder, sampleFolders=["/Users/Koen Schepens/Dropbox/Producing/Recordings_local"])
+    abletonProjectFolder = "/Users/Koen Schepens/Dropbox/Producing/Projects/Ableton"
+
     #scanner = AbletonScanner(abletonProjectFolder, preferencesFolder, abletonFiles = ["Liveset 2015 - Oktober.als", "Chordinaal v3 beter.als"])
     #scanner = AbletonScanner(abletonProjectFolder, preferencesFolder, abletonFiles = ["Source.als"])
     #scanner = AbletonScanner(os.path.join(abletonProjectFolder, "AbletonTest"), preferencesFolder, sampleFolders=["/Users/macbook/Dropbox/Producing/Recordings"])
+    #scanner = AbletonScanner(abletonProjectFolder, preferencesFolder, sampleFolders=["/Users/Koen Schepens/Dropbox/Producing/Samples", "/Users/Koen Schepens/Dropbox/Producing/Recordings_local"])
+
+    scanner = AbletonScanner(abletonProjectFolder, preferencesFolder, sampleFolders=["/Users/Koen Schepens/Dropbox/Producing/Recordings_local"])
     scanner.scan(evaluate_orphans=True)
+
     saveDir = '/Users/Koen Schepens/Dropbox/Producing/Projects/AbletonTest/Results'
     scanner.saveHtml(saveDir)
     webbrowser.open("file://" + os.path.join(saveDir, "index.html"))
@@ -72,7 +74,7 @@ def mainUser():
     print("Extra folder")
     extraFolder = askForFolder(expanduser("~"), "Add extra folder containing samples to scan (or cancel to just scan project subfolders)")
 
-    while(extraFolder is not None):
+    while extraFolder is not None:
         extraFolders.append(extraFolder)
         print("Extra folder")
         extraFolder = askForFolder(expanduser("~"), "Add another extra folder containing samples to scan (or cancel if ready)")
@@ -81,18 +83,18 @@ def mainUser():
 
     scan = messagebox.askyesno(message = "Scan all projects under {0}?".format(abletonFolderToScan))
 
-    if(scan):
+    if scan:
         scanner.Started = datetime.datetime.now()
         scanner.scan(logger = log)
     else:
         print("Ok suit yourself then.")
         quit()
 
-    scanner._evaluate_orphans(logger = log)
+    scanner.evaluate_orphans(logger = log)
 
     saveFolder = filedialog.askdirectory(title="Enter folder name to save", initialdir=expanduser("~"))
 
-    if(saveFolder):
+    if saveFolder:
         scanner.saveHtml(saveFolder)
 
         webbrowser.open("file://" + os.path.join(saveFolder, "index.html"))
@@ -102,19 +104,16 @@ def mainUser():
         messagebox.Message("Cancelled")
 
 def moveOrphans(scanner):
-    if(any(scanner.orphans)):
+    if any(scanner.orphans):
         _moveOrphans = messagebox.askokcancel(message="Do you want to move all orphan samples to another folder (preferably another disk) to see if you can save {0}?".format(scanner.TotalOrphanedSampleFileSize))
 
-        if(_moveOrphans):
-            _moveOrphans = messagebox.askyesno(message="Warning! This is at your own risk! You hereby declare that you know what you're doing and understand that no-one but you can be held responsible for your own actions. Proceed?")
+        if _moveOrphans:
+            _moveOrphans = messagebox.askyesno(message="Warning! This is at your own risk! You hereby declare that you know what you're doing and understand that no-one but you can be held responsible for this action. Proceed?")
 
-        if(_moveOrphans):
+        if _moveOrphans:
             target = filedialog.askdirectory(title="Where do you want to store the orphaned files?", initialdir=expanduser("~"))
-            if(target):
+            if target:
                 scanner.moveOrphanes(target)
 
 if __name__ == "__main__":
     main()
-
-#"/Users/macbook/Library/Preferences/Ableton/Live 9.2"
-
